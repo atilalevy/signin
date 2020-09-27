@@ -11,7 +11,7 @@ const Main = () => {
                 <Info />
             </div>
             <div className="form">
-                <text>Form</text>
+                <SignIn />
             </div>
             
         </div>

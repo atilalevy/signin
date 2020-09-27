@@ -4,6 +4,7 @@
     grid-template-columns: 500px auto;
 
     height: 100%;
+
 }
 
 .info {
@@ -11,7 +12,7 @@
     align-items: center;
     justify-content: flex-end;
 
-    padding: 40px 0px 40px 0px;
+    padding: 40px 0px 40px 20px;
 
     background: var(--dark-color);
 }
@@ -19,6 +20,8 @@
 .form {
     align-items: center;
     justify-content: flex-start;
+
+    padding: 40px 20px 40px 0px;
 
     background: var(--light-gray-color);
 }

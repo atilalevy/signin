@@ -2,8 +2,15 @@
   --info-background: linear-gradient(90deg, rgba(66,29,185,1) 0%, rgba(73,33,196,1) 57%, rgba(80,36,207,1) 100%);
   --white-color: rgba(255, 255, 255, 1);
   --white-t-color: rgba(255, 255, 255, 0.6);
-  --dark-color: #0D1023;
-  --light-gray-color: #EDEDFC; 
+  --dark-color: rgb(13, 16, 35);
+  --light-gray-color: rgb(237, 237, 252); 
+  --dark-gray: rgba(141, 141, 141, 0.69);
+  --blue: rgba(0, 0, 255, 0.89);
+  --light-blue:  rgba(0, 0, 255, 0.575);
+
+  --title-font-size: 38px;
+  --subtitle-font-size: 20px;
+  --description-font-size: 16px;
 }
 
 body {

@@ -1,8 +1,7 @@
-.container {
+.info-container {
     display: flex;
     flex-direction: column;
 
-    width: 480px;
     height: 100%;
 
     border-top-left-radius: 20px;
@@ -11,8 +10,9 @@
     background: var(--info-background);
 }
 
-.content {
+.info-content {
     padding: 14px 40px;
+    margin-top: 158px;
 }
 
 .logo{
@@ -32,16 +32,17 @@
 }
 
 .logotext{
-    font-size: 20px;
+    font-size: var(--subtitle-font-size);
     color: var(--white-color);
 }
 
 .title {
-    font-size: 38px;
+    font-size: var(--title-font-size);
     color: var(--white-color);
 }
 
 .description {
+    font-size: var(--description-font-size);
     color: var(--white-t-color);
 }
 

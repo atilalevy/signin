@@ -6,8 +6,8 @@ import art from '../../assets/images/art.png';
 
 const Info = () => {
     return(
-        <div className="container">
-            <div className="content">
+        <div className="info-container">
+            <div className="info-content">
                 <div className="logo">
                     <img src={logo} alt="logo" className="logoimg" />
                     <p className="logotext"><strong>super</strong>path</p>

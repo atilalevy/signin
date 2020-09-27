@@ -1,5 +1,98 @@
-.container {
+.signin-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 100%;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    background: var(--white-color);
+}
+
+.image-people {
+    width: 260px;
+}
+
+.signin-title-div {
     display: flex;
 
     align-items: center;
+    justify-content: center;
+}
+
+.mortarboard-icon {
+    width: 26px;
+    margin-right: 5px;
+}
+
+.signin-title {
+    font-size: var(--subtitle-font-size);
+    font-weight: bold;
+}
+
+.signin-form {
+    width: 300px;
+}
+
+.signin-form-text{
+    font-size: var(--description-font-size);
+    color: var(--dark-gray);
+}
+
+.signin-input {
+    width: 300px;
+    padding: 5px;
+
+    border-width: 1px;
+    border-color: var(--light-gray-color);
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: var(--blue);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.signin-button {
+    width: 312px;
+    height: 40px;
+    padding: 5px;
+
+    margin-top: 20px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+button:hover {
+    background-color: var(--light-blue);
+}
+
+.signin-button-text{
+    font-size: var(--description-font-size);
+    color: var(--white-color);
+
+    margin: 5px auto;
+}
+
+.signup-div {
+    margin-top: 180px;
+}
+
+.signup-text {
+    color: var(--dark-gray);
+}
+
+.signup-link {
+    font-weight: bold;
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--light-blue);
 }
