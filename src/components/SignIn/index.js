@@ -9,7 +9,12 @@ function access() {
     window.alert('Access granted');
 };
 
+function googleAccess() {
+    window.alert('Access with google');
+};
+
 const SignIn = () => {
+
     return(
         <div className="signin-container">
             
@@ -21,10 +26,28 @@ const SignIn = () => {
             </div>
 
             <div className="signin-form">
+
+                <button 
+                    type="submit" 
+                    className="signin-google"
+                    onClick={() => googleAccess()}
+                >
+                    <img src={googlelogo} alt="Google" className="google-logo" />
+                    <p className="signin-google-text">Sign in with Google</p>
+                </button>
+
+                <div className="div-or">
+                    <hr className="hr-or" />
+                    <p className="or-text">OR</p>
+                    <hr className="hr-or"/>
+                </div>    
+            
                 <p className="signin-form-text">Your email</p> 
                 <input type="text" className="signin-input" />
+
                 <p className="signin-form-text">Set password</p>
                 <input type="password" className="signin-input" />
+
                 <button 
                     type="submit" 
                     className="signin-button"

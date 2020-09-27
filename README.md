@@ -1,6 +1,6 @@
 # SignIn and Register Page
 
-A login and registration page developed with React, based on the layout and design of Liviu Anghelina. Link below:
+A single login page developed with React, based on the layout and design of Liviu Anghelina. Link below:
 https://dribbble.com/shots/13978607-SuperPath-Create-Account-and-Register-Screen/attachments/5592287?mode=media
 
 ### Installation
@@ -15,7 +15,7 @@ Open the project folder via the terminal or prompt. Run the 'npm start' command.
 
 # Página de Login e Registro
 
-Uma página de login e registro desenvolvida com React, com base no layout e design de Liviu Anghelina. Link abaixo:
+Uma única página de login desenvolvida com React, com base no layout e design de Liviu Anghelina. Link abaixo:
 https://dribbble.com/shots/13978607-SuperPath-Create-Account-and-Register-Screen/attachments/5592287?mode=media
 
 ### Instalação

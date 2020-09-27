@@ -34,7 +34,59 @@
 }
 
 .signin-form {
+    margin-top: 10px;
     width: 300px;
+}
+
+.signin-google {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 312px;
+    height: 40px;
+    padding: 5px;
+
+    border: 1px solid var(--dark-gray);
+    border-radius: 5px;
+
+    background-color: var(--light-gray-color);
+}
+
+.google-logo {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.signin-google-text{
+    font-size: var(--description-font-size);
+    color: var(--dark-color);
+    font-weight: 400;
+}
+
+.div-or{
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px 0;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+}
+
+.hr-or{
+    width: 40%;
+    margin-top: 12px;
+    color: var(--dark-gray);
+}
+
+.or-text{
+    font-size: var(--description-font-size);
+    color: var(--dark-gray);
 }
 
 .signin-form-text{
@@ -68,10 +120,6 @@ input:focus {
     background-color: var(--blue);
 }
 
-button:hover {
-    background-color: var(--light-blue);
-}
-
 .signin-button-text{
     font-size: var(--description-font-size);
     color: var(--white-color);
@@ -80,7 +128,7 @@ button:hover {
 }
 
 .signup-div {
-    margin-top: 180px;
+    margin-top: 80px;
 }
 
 .signup-text {
