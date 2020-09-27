@@ -1,16 +1,32 @@
-.signin-container {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-
-    height: 100%;
-
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-
-    background: var(--white-color);
+@media (min-width: 900px){
+    .signin-container {
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+    
+        height: 100%;
+    
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    
+        background: var(--white-color);
+    }
 }
+
+@media (max-width: 899px){
+    .signin-container {
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+    
+        height: 100%;
+    
+        background: var(--white-color);
+    }
+}
+
 
 .image-people {
     width: 260px;
