@@ -1,4 +1,4 @@
-# SignIn and Register Page
+# SignIn Page
 
 A single responsive login page developed with React, based on the layout and design of Liviu Anghelina. Link below:
 https://dribbble.com/shots/13978607-SuperPath-Create-Account-and-Register-Screen/attachments/5592287?mode=media
