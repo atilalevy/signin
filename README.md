@@ -13,7 +13,7 @@ Open the project folder via the terminal or prompt. Run the 'npm start' command.
 
 ## Have a good time
 
-# Página de Login e Registro
+# Página de Login
 
 Uma única página responsiva de login desenvolvida com React, com base no layout e design de Liviu Anghelina. Link abaixo:
 https://dribbble.com/shots/13978607-SuperPath-Create-Account-and-Register-Screen/attachments/5592287?mode=media
