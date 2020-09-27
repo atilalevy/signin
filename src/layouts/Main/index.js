@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import FormSign from '../../components/FormSign';
+import SignIn from '../../components/SignIn';
 import Info from '../../components/Info';
 
 const Main = () => {

@@ -1,12 +1,12 @@
 import React from 'react';
 import './style.css';
 
-const FormSign = () => {
+const SignIn = () => {
     return(
         <div>
-            <text>FormSign</text>
+            <text>SignIn</text>
         </div>
     )
 }
 
-export default FormSign;
+export default SignIn;
